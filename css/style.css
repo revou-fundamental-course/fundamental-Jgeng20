@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Rubik', sans-serif;
     text-decoration: none;
 }
 
@@ -36,21 +38,21 @@ body {
     position:sticky;
     top: 0;
     border: 1px solid black;
-    border-radius: 18vh 43vh;
-    font-size: 7vh;
+    border-radius: 50% 50% 150% 150%;
+    font-size: 5vh;
     font-weight: bolder;
     color: red;
 }
 
 .input-first {
-    width: 80vw;
-    height: 15vh;
-    font-size: 10vh;
+    width: 70vw;
+    height: 7vh;
+    font-size: 5vh;
 }
 
 .input-enter {
-    width: 80vw;
-    height: 10vh;
+    width: 70vw;
+    height: 7vh;
     font-size: 5vh;
     font-weight: bold;
     border: 1px solid black;
@@ -68,10 +70,10 @@ body {
 
 .alert-enter {
     height: 15px;
-    margin-top: 10px;
+    margin-top: 20px;
     width: auto;
     color: red;
-    font-size: auto;
+    font-size: 4vh;
 }
 
 header {
@@ -259,6 +261,7 @@ main {
 
 .h4-bio {
     margin: 10px 0px 20px;
+    font-weight: normal;
 }
 
 section {
@@ -381,6 +384,7 @@ form {
 
 .td1 {
     width: auto;
+    font-weight:normal;
 }
 
 .table2 {
