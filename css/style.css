@@ -1,0 +1,641 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: bisque;
+}
+
+.welcome {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position:sticky;
+    top: 0;
+}
+
+.welcome-isi {
+    width: 90vw;
+    height: 99vh;
+    position: absolute;
+    top: 0;
+    background-color: burlywood;
+    display: flex;
+    flex-direction:column ;
+    justify-content:center;
+    align-items: center;
+    position:sticky;
+    top: 0;
+    border: 1px solid black;
+    border-radius: 18vh 43vh;
+    font-size: 7vh;
+    font-weight: bolder;
+    color: red;
+}
+
+.input-first {
+    width: 80vw;
+    height: 15vh;
+    font-size: 10vh;
+}
+
+.input-enter {
+    width: 80vw;
+    height: 10vh;
+    font-size: 5vh;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-enter:hover {
+    color: red;
+    background-color: wheat;
+}
+
+.alert-enter {
+    height: 15px;
+    margin-top: 10px;
+    width: auto;
+    color: red;
+    font-size: auto;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    background-color: burlywood;
+    display: none;
+    justify-content:space-between;
+    align-items: center;
+    position:sticky;
+    top: 0;
+}
+
+.button-nav {
+    width: 5vh;
+    height: 5vh;
+    background-color: bisque;
+    border-radius: 30%;
+    margin-right: 40px;
+}
+
+.button-navbar {
+    display: none;
+    width: auto;
+    height: auto;
+}
+
+.img-navbar {
+    height: 100%;
+    width: 100%;
+}
+
+.button-nav:hover {
+    width: 6vh;
+    height: 6vh;
+    background-color: white;
+}
+
+.navbar-button {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 30px;
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    background-color: wheat;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 110px;
+    border-top-left-radius: 160px ;
+}
+
+.div-button{
+    margin-left: 65%;
+    width: auto;
+    height: auto;
+}
+
+.a-img1 {
+    width: 200px;
+    height: 190px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+#logo1 {
+    background-image: url(../assets/mylogo.svg);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;   
+}
+
+.a-navbar {
+    width: 110px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    border-radius: 100px;
+    border: 1px solid black;
+}
+
+.a-navbar:hover {
+    background-color: white;
+}
+
+.a-contact {
+    width: 130px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    border-radius: 100px;
+    border: 1px solid black;
+}
+
+#contact2 {
+    margin-top: 20px;
+}
+
+#contact3 {
+    width: 100px;
+    height: auto;
+    font-size: 10px;
+}
+
+.img2 {
+    width: 20px;
+    height: auto;
+    padding-right: 10px;
+}
+
+.a-contact:hover {
+    background-color: white;
+    color: aqua;
+}
+
+.div-all {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 1300px;
+    height: auto;
+    background-color: bisque;
+}
+
+.div-main {
+    height: auto;
+    margin-top: 30px;
+    padding: 30px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.div-gambar {
+    width: 100%;
+    height: auto;
+    margin: 20px 0px;
+}
+
+.slide-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.slide-button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-img {
+    width: 45%;
+    height: 5vh;
+    font-size: auto;
+    border: 1px solid black;
+    border-radius: 100px;
+    background-color: bisque;
+    margin-bottom: 5vh;
+}
+
+.button-img:hover {
+    background-color: wheat;
+}
+
+.h4-bio {
+    margin: 10px 0px 20px;
+}
+
+section {
+    width: 1300px;
+    height: auto;
+    background-color: bisque;
+}
+
+.div-section1 {
+    height: 200px;
+    margin-top: 10px;
+    padding: 30px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.div-section2 {
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: small;
+}
+
+.div-profile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.profile {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.profile:hover {
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-size: cover;
+}
+
+#profile1 {
+    background-image: url(../assets/instagramImg.png);
+}
+
+#profile2 {
+    background-image: url(../assets/tiktokImg.png);
+}
+
+#profile3 {
+    background-image: url(../assets/tweetImg.png);
+}
+
+#profile4 {
+    background-image: url(../assets/facebookImg.png);
+}
+
+article {
+    width: 1300px;
+    height: auto;
+    background-color: bisque;
+}
+
+.div-article1 {
+    height: auto;
+    margin-top: 10px;
+    padding: 30px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.div-article2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    width: 50%;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.div-bio {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.table1 {
+    display: flex;
+    width: 100%;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.th1 {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.td1 {
+    width: auto;
+}
+
+.table2 {
+    display: flex;
+    width: 100%;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.th2 {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.td2 {
+    width: 1000px;
+}
+
+input {
+    height: 10px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.input-nama {
+    width: 96%;
+}
+
+.input-ultah {
+    width: 96%;
+}
+
+label {
+    font-size: smaller;
+}
+
+#male {
+    width: 20px;
+    height: 20px;
+}
+
+.div-pesan {
+    width: 98%;
+}
+
+textarea {
+    padding: 2%;
+    width: 96%;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    font-size:small;
+    font-weight: bolder;
+}
+
+.p-sender {
+    padding: 2%;
+    width: 96%;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.p-span {
+    height: 10px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.input-submit {
+    width: 100%;
+    height: 40px;
+    font-size:18px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-submit:hover {
+    color: red;
+    background-color: wheat;
+}
+
+.alert-submit {
+    height: 15px;
+    margin-top: 10px;
+    width: auto;
+    color: red;
+    font-size: auto;
+}
+
+.p-thank {
+    width: 100%;
+    height: 37px;
+    font-size:18px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.div-footer{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0px 30px;
+    font-size: 10px;
+}
+
+@media (max-width: 1300px){
+
+    .navbar {
+        margin-right: 5px;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    section {
+        width: 95%;
+    }
+
+    .div-section1 {
+        height: 160px
+    }
+
+    article {
+        width: 95%;
+        
+    }
+
+    .div-article1 {
+        width: 95% * 95%;
+        margin: 10px 0px 0px 0px;
+        padding: 10;
+    }
+
+    .div-article2 {
+        width: 100% ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    form {
+        height: auto;
+        width: 100%;
+        margin: 40px 0 0 0;
+        padding: 10px 10px 30px; 
+    }
+}
+
+@media (max-width: 920px){
+    .navbar {
+        display: none;
+        
+    }
+
+    .a-navbar {
+        width: 130px;
+        margin-top: 20px;
+    }
+
+    .button-nav{
+        width: 70%;
+        height: 70%;
+    }
+    .button-nav:hover {
+        width: 70%;
+        height: 70%;
+        background-color: white;
+    }
+
+    .button-navbar {
+        display: flex;
+        width: auto;
+        height: auto;
+    }
+
+    .div-bio {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 627px) {
+
+    .profile {
+        width: 40px;
+        height: 40px;
+    }
+
+    .profile:hover {
+        width: 50px;
+        height: 50px;
+    }
+
+    .div-section1 {
+        height: 120px
+    }
+
+    .table2 {
+        font-size: medium;
+    }
+
+    .th2 {
+        width: 110px;
+    }
+
+    #male {
+        width: 10px;
+        height: 10px;
+    }
+
+}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="widh=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js" defer></script>
+    </head>
+    <boddy>
+        <div class="welcome" id="welcome">
+            <div >
+                <form class="welcome-isi" name="input-form" onsubmit="return validateEnter()">
+                    <p>Enter Your First Name</p>
+                    <input class="input-first" placeholder="Name" type="text" name="first-name" />
+                    <br/> 
+                    <input class="input-enter" type="submit" value="Get In The Website"> 
+                    <p id="alert-enter" class="alert-enter"></p> 
+                </form>
+            </div>
+        </div>
+        <header id="header">
+            <a class="a-img1" id="logo1"> </a>
+            <div class="navbar">
+                <a class="a-navbar" href="#home">Home</a>
+                <a class="a-navbar" href="#about">About</a>
+                <a class="a-navbar" href="#profile">Profile</a>
+                <a class="a-navbar" href="#message">Message</a>
+                <a class="a-contact" id="contact1" href="https://wa.me/6288801807394">                   
+                    <img src="assets/waImg.png" class="img2">
+                    <p>Contact Me</p>                          
+                </a>
+            </div> 
+            <div class="button-navbar">
+                <button class="button-nav" onclick="navigation(-1)"> <img class="img-navbar" src="assets/navbarImg.svg"></button>
+            </div>         
+        </header>
+        <div class="navbar-button">
+            <div class="div-button">
+                <button class="button-nav" onclick="navigation(1)"> <img class="img-navbar" src="assets/closeImg.png"></button>
+            </div>
+            <a class="a-navbar" href="#about">About</a>
+            <a class="a-navbar" href="#profile">Profile</a>
+            <a class="a-navbar" href="#message">Message</a>  
+            <a class="a-contact" id="contact2" href="https://wa.me/6288801807394">                   
+                <img src="assets/waImg.png" class="img2">
+                <p>Contact Me</p>                          
+            </a>
+        </div> 
+        <div class="div-all">
+            <main id="home">
+                <div class="div-main">
+                    <h1 id="h1-welcome">Hi, Welcome A Good Person Named <span id="sender-first-name"></span>!</h1>
+                    <h3>Here Is My Website</h3>
+                    <div class="div-gambar">
+                        <img class="slide-img" id="slide1" src="assets/mlImg.jpg">
+                        <img class="slide-img" id="slide2" src="assets/cocImg.jpg">
+                        <img class="slide-img" id="slide3" src="assets/ipImg.jpg">
+                    </div>
+                    <div class="slide-button">
+                        <button class="button-img" id="previous">Previous</button>
+                        <button class="button-img" id="next">Next</button>
+                    </div>
+                    <h3 id="about"> The pictures above are some of the things that I like </h3>
+                    <h4 class="h4-bio"> I am a student of Universitas Pendidikan Indonesia, I am proficient in studying algorithms, especially in the C++ programming language. I have the determination to work in the IT field and currently I am interested in full stack development. </h4>
+                    <h3>Below is a little of my biodata.</h3>
+                    <div class="div-bio">
+                        <table class="table1">
+                            <tr>
+                                <th class="th1">Name
+                                    <p>:</p>
+                                </th>
+                                <td class="td1">
+                                     <p> Rhyno Fairuz Melin</p>
+                                </td>                                
+                            </tr>
+                            <tr>
+                                <th class="th1">Birth Date
+                                    <p>:</p>
+                                </th>
+                                <td class="td1">
+                                    <p>20 Juni 2005</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="th1">Domicile
+                                    <p>:</p>
+                                </th>
+                                <td class="td1">
+                                    <p>Bandung</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="th1">Adress
+                                    <p>:</p>
+                                </th>
+                                <td class="td1">
+                                    <p>Bandung Komp Griya Bandung Indah</p>
+                                </td>
+                            </tr>          
+                        </table>
+                        <table class="table1">
+                            <tr>
+                                <th class="th1">Hobby
+                                    <p>:</p>
+                                </th>
+                                <td class="td1">
+                                     <p> Gaming, Coding, Read, </p>
+                                </td>                                
+                            </tr>
+                            <tr>
+                                <th class="th1">Hardskills
+                                    <p>:</p>
+                                </th>
+                                <td class="td1">
+                                    <p>C++ programming</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="th1">Softskills
+                                    <p>:</p>
+                                </th>
+                                <td class="td1">
+                                    <p>Fast learning, dicipline</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="th1">Interest
+                                    <p>:</p>
+                                </th>
+                                <td class="td1">
+                                    <p>Stack Developer, Cyber Security</p>
+                                </td>
+                            </tr>          
+                        </table>
+                    </div>
+                </div>
+            </main>
+            <section id="profile">
+                <div class="div-section1">
+                    <h1 >My Profile</h1>
+                    <div class="div-section2">
+                        <div class="div-profile">
+                            <a class="profile" id="profile1" href="https://www.instagram.com/rhy.n_n.o/"></a>
+                            <H3>Instagram</H3>
+                        </div>
+                        <div class="div-profile">
+                            <a class="profile" id="profile2" href="https://www.tiktok.com/@hyorey"></a>
+                            <H3>Tiktok</H3>
+                        </div>
+                        <div class="div-profile">
+                            <a class="profile" id="profile3" href="https://x.com/Rjgeng1"></a>
+                            <H3>Tweet</H3>
+                        </div>
+                        <div class="div-profile">
+                            <a class="profile" id="profile4" href="https://www.facebook.com/rhyno.melin"></a>
+                            <H3>Facebook</H3>
+                        </div>
+                    </div>
+                </div>                
+            </section>
+            <article id="message">
+                <div class="div-article1">
+                    <h1 >Message Me</h1>
+                    <div class="div-article2">
+                        <form name="message-form" onsubmit="return validateForm()" >
+                            <table class="table2">
+                                <tr>
+                                    <th class="th2">Name
+                                        <p>:</p>
+                                    </th>
+                                    <td class="td2">
+                                        <input class="input-nama" placeholder="Name" type="text" name="full-name" />
+                                        <br />  
+                                    </td>                                
+                                </tr>
+                                <tr>
+                                    <th class="th2">Birth Date
+                                        <p>:</p>
+                                    </th>
+                                    <td class="td2">
+                                        <input class="input-ultah" type="date" name="birth-date" />
+                                        <br>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="th2">Gender
+                                        <p>:</p>
+                                    </th>
+                                    <td class="td2">
+                                        <input type="radio" id="male" name="gender" value="male" />
+                                        <label for="male">Male</label>
+                                        <input type="radio" id="male" name="gender" value="Female" />
+                                        <label for="female">Female</label>
+                                        <br />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="th2">Message :</th>
+                                </tr>                    
+                            </table>
+                            <div class="div-pesan">
+                                <textarea placeholder="silahkan ketik pesan anda" name="messages"></textarea>
+                            </div>
+                            <input class="input-submit" type="submit" value="submit"> 
+                            <p id="alert" class="alert-submit"></p>                        
+                        </form>
+                        <form >
+                            <table class="table2">
+                                <tr>
+                                    <th class="th2">Name
+                                        <p>:</p>
+                                    </th>
+                                    <td class="td2">
+                                        <p class="p-span"> <span id="sender-full-name"></span></p>  
+                                    </td>                                
+                                </tr>
+                                <tr>
+                                    <th class="th2">Birth Date
+                                        <p>:</p>
+                                    </th>
+                                    <td class="td2">
+                                        <p class="p-span"> <span id="sender-birth-date"></span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="th2">Gender
+                                        <p>:</p>
+                                    </th>
+                                    <td class="td2">
+                                        <p class="p-span"> <span id="sender-gender"></span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="th2">Message :</th>
+                                </tr>              
+                            </table>
+                            <div class="div-pesan">
+                                <p class="p-sender"><span id="sender-messages"></span></p>
+                            </div>
+                            <p class="p-thank" id="thank">
+
+                            </p>
+                            <p class="alert-submit"></p>
+                        </form>
+                    </div>                                   
+                </div>
+            </article>
+        </div>
+        <footer>
+            <div class="div-footer" id="contact">
+                <a class="a-contact" id="contact3" href="https://wa.me/6288801807394">                   
+                    <img src="assets/waImg.png" class="img2">
+                    <p>Contact Me</p>                          
+                </a>
+                <p>&copy; Created By Rhyno</p>
+            </div>
+        </footer>       
+    </boddy>
+</html>
