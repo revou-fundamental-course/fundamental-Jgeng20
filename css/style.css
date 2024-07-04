@@ -35,6 +35,7 @@ body {
     flex-direction:column ;
     justify-content:center;
     align-items: center;
+    text-align: center;
     position:sticky;
     top: 0;
     border: 1px solid black;
@@ -85,11 +86,9 @@ body {
 }
 
 .alert-enter {
-    height: 15px;
     margin-top: 20px;
     width: auto;
     color: red;
-    font-size: 4vh;
 }
 
 header {
