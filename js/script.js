@@ -1,3 +1,21 @@
+//Algoritma warna kelap kelip
+const changeColor1 = document.querySelector('.div-first');
+const changeColor2 = document.querySelector('.alert-enter');
+const changeColor3 = document.querySelector('.alert-submit');
+let change = true;
+let slideBorder = setInterval (() => {
+    if (change) {
+        changeColor1.style.backgroundColor = 'wheat'; 
+        changeColor2.style.color = 'red';
+        changeColor3.style.color = 'red';
+    } else {
+        changeColor1.style.backgroundColor = 'red';
+        changeColor2.style.color = 'black';
+        changeColor3.style.color = 'black';
+    }
+    change = !change;
+}, 500);
+
 //Algoritma validasi enter web
 function validateEnter () {
     const getEnter= document.forms["input-form"]["first-name"].value;
@@ -77,7 +95,7 @@ function showSlide(n) {
 // Algoritma delay slide apabila user mengclick button prev/next
 let slideInterval = setInterval (() => {
     nextslide(1);
-    }, 1000);
+}, 1000);
 
 let delaySlide = false;
 
