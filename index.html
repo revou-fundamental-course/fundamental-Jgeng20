@@ -49,7 +49,10 @@
         <div class="div-all">
             <main id="home">
                 <div class="div-main">
-                    <h1 id="h1-welcome">Hi, Welcome A Good Person Named <span id="sender-first-name"></span>!</h1>
+                    <h1 id="h1-welcome">
+                        Hi, Welcome <span id="sender-first-name"></span>! 
+                        <h1 id="h1-welcome"> </h1>
+                    </h1>
                     <h3>Here Is My Website</h3>
                     <div class="div-gambar">
                         <img class="slide-img" id="slide1" src="assets/mlImg.jpg">
@@ -199,7 +202,8 @@
                                 </tr>                    
                             </table>
                             <div class="div-pesan">
-                                <textarea placeholder="silahkan ketik pesan anda" name="messages"></textarea>
+                                <textarea id="message-input" placeholder="Please message here (max 500 character)" name="messages"></textarea>
+                                <p id="char-count">500 character</p>
                             </div>
                             <input class="input-submit" type="submit" value="submit"> 
                             <p id="alert" class="alert-submit"></p>                        
@@ -237,6 +241,10 @@
                             <div class="div-pesan">
                                 <p class="p-sender"><span id="sender-messages"></span></p>
                             </div>
+                            <p id="char-count"></p>
+                            <p id="thankSpace">
+
+                            </p>
                             <p class="p-thank" id="thank">
 
                             </p>

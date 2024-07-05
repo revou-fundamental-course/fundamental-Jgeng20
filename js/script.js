@@ -48,11 +48,15 @@ function validateForm () {
         document.getElementById("alert").innerHTML= "Fill All Columns Please!";
         return false;
     } else {
+
+        //Algoritma perapih form sender
         document.getElementById("alert").innerHTML= "";
 
         var messageElement = document.getElementById('thank');
+        var deleteSpace = document.getElementById('thankSpace');
         messageElement.style.display = 'flex';
-        
+        deleteSpace.style.display = 'none';
+
         document.getElementById("thank").innerHTML= "Thanks! Happy To Knows You!";
     }
 
@@ -125,7 +129,7 @@ nextButton.addEventListener('click', () => {
     buttonclick();
 });
 
-//algoritma untuk header
+//Algoritma untuk header
 const buttonNav = document.querySelector('.button-nav');
 const divButton = document.querySelector('.div-button');
 const navbarButton = document.querySelector('.navbar-button');
@@ -136,4 +140,17 @@ buttonNav.addEventListener('click', function() {
 
 divButton.addEventListener('click', function() {
     navbarButton.style.display = 'none';
+});
+
+//Algoritma max karakter pada pesan
+const messageInput = document.getElementById('message-input');
+const charCount = document.getElementById('char-count');
+
+messageInput.addEventListener('input', () => {
+    let message = messageInput.value;
+    if (message.length > 150) {
+        message = message.substring(0, 500);
+        messageInput.value = message;
+    }
+    charCount.textContent = `${message.length}/500 karakter`;
 });
