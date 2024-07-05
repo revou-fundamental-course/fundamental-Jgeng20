@@ -148,7 +148,7 @@ const charCount = document.getElementById('char-count');
 
 messageInput.addEventListener('input', () => {
     let message = messageInput.value;
-    if (message.length > 150) {
+    if (message.length > 500) {
         message = message.substring(0, 500);
         messageInput.value = message;
     }
